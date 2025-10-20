@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1184px;
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  min-height: 48px;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin-right: 390px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.pages {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.auth {
+  margin-left: 268px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.login {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.register {
+  border-radius: 12px;
+  padding: 14px 39px;
+  background: #121417;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #fff;
+}
+
+.ukr {
+  border-radius: 50%;
+}
