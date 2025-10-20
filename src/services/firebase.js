@@ -4,7 +4,7 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCrkMIcGWjl3DhkbuIEeUkJ4b_J0Pv7mlA",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "newafter-51828.firebaseapp.com",
   databaseURL: "https://newafter-51828-default-rtdb.firebaseio.com",
   projectId: "newafter-51828",
